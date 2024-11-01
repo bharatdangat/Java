@@ -1,22 +1,5 @@
-/*print pattern uding java
-5
-4 5
-3 4 5
-2 3 4 5 
-1 2 3 4 5
+//RULES FOR CREATE PACKAGE
+1)package name and folder name must be same...
+2)class name and file name must be same.
+3)class and methods must be public.
 
-*/
-class pattern
-{
- public static void main(String argc[])
- {
-  for(int i=1;i<=5;i++)
-  {
-   for(int j=5;j>=i;j--)
-   {
-    System.out.print(+j);
-   }
-   System.out.println(" ");
-  }
- }
-}
